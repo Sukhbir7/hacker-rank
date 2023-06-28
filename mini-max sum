@@ -13,7 +13,9 @@ vector<string> split(const string &);
  */
 
 void miniMaxSum(vector<int> arr) {
-    sort(arr.begin(),arr.end());
+//sorting function-sort(array_name.begin(),array_name.end()
+);
+sort(arr.begin(),arr.end());
 
     int d=0;
     for(int i=0; i<5; i++)
